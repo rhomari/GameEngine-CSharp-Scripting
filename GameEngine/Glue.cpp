@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-extern "C" __declspec(dllexport) void createGameObject(int id,int len) {
+extern "C" __declspec(dllexport) void createGameObject(int id) {
 
 	GameEngineClass::createGameObject(id);
 	
